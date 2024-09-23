@@ -44,11 +44,6 @@ Run macOS on your Dell Latitude 3410
 - [Installation](#installation)
   - [First-time installation](#first-time-installation)
 - [Improvements](#improvements)
-- [FAQ](#faq)
-- [Changelog](#changelog)
-- [A reward](#a-reward)
-- [Credits](#credits)
-- [Support and discussion](#support-and-discussion)
 
 ## Configuration
 
@@ -73,7 +68,7 @@ Run macOS on your Dell Latitude 3410
 ## Installation
 
 ### First-time installation
-- Install with a clean sonoma DMG  and replace the EFI folder with one of mine [releases](https://github.com/fgvilches/DELL-LATITUDE-3410-HACKINTOSH/releases).
+- Install with a clean sonoma DMG  and replace the EFI folder with one of mine [releases](https://github.com/tunhan9xonMS/DELL-LATITUDE-3410-HACKINTOSH/releases).
 - If the trackpad doesn't work during the installation, please plug a wired-wireless mouse before the installation. After the installation completes, open Terminal.app and run sudo kextcache -i /. Wait for the process ending and restart the device. 
 
 - Remember fill with a serial number and board (Use opencore's macserial.py or somthing like that ) on config.plist (Generate a valid serial number and board), because I deleted my SerialNumber and Board for obvious reasons.
